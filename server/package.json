@@ -1,0 +1,33 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "build web application use websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "author": "phungminhhieu1206@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "immutable": "^4.0.0-rc.12",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.0.0-beta.2",
+    "lodash": "^4.17.20",
+    "milsymbol": "^2.0.0",
+    "moment": "^2.27.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
